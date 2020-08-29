@@ -122,7 +122,7 @@ export const TotalConnections = styled.span`
 
 export const PageLandingContent = styled.div`
   @media (min-width: 1100px) {
-    max-width: 1100px;
+    max-width: 1100px !important;
 
     display: grid;
     grid-template-rows: 350px 1fr;
